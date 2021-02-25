@@ -23,7 +23,7 @@ Pour plus d'information, veuillez consulter les versions et modules d'[OpenSub�
 ### License
 
 GNU General Public [License](https://www.gnu.org/licenses/)
-Author [Lanteas™](contact@lanteas.com) 
+Author [Lanteas™](https://lanteas.com/) 
 Package OpenSub™
 
 OpenSub™ is free software, you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation,
