@@ -1,0 +1,290 @@
+/**
+ * @license GNU General Public License < https://www.gnu.org/licenses/ >
+ * @author  Lanteas™ < contact@lanteas.com >
+ * @package OpenSub™
+*/
+
+table {
+	width: 100%;
+}
+table tbody {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.view tr {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+}
+
+table.view td {
+	width: 90%;	
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+table.view td#affichage-resultat-req {
+	width: 90%;
+}
+
+.une-requete {
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+	margin-left: 6%;
+}
+
+.bloc {
+	display: flex;
+	flex-direction: row;
+}
+.bloc1 {
+	width: 50%;
+}
+
+.bloc2 {
+	width: 15%;
+}
+
+.conseil {
+	width: 100%;
+}
+
+table #titre-tab {
+	background-color: #77C7CF;
+	color: white;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	justify-content: space-between;
+	text-transform: uppercase;
+}
+
+table #titre-tab td {
+	font-weight: bold;
+	font-size: 13px;
+}
+
+table #titre-tab td:first-child {
+	text-align: center;
+}
+
+table.view td p {
+	vertical-align: center;
+}
+
+.td-module {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: auto;
+}
+.pair {
+	background-color: #F8F8F8F8 !important;
+}
+
+
+.button {
+	vertical-align: middle;
+	background-color: #17879a;
+	border-radius: 6px;
+	border: none;
+	color: white;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.button img {
+	margin-top: -17px;
+	width: 10px;
+	height: 10px;
+}
+
+.button:hover {
+	background-color: #77c7cf;
+}
+
+.button:focus {
+	outline-style:none;
+}
+
+#button-launch {
+	background-color: #17879a;
+}
+
+#button-launch:hover {
+	background-color: #77c7cf;
+}
+
+
+table .titre-sub-tab {
+	background-color: #77C7CF;
+	color: #fff;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+	text-transform: uppercase;
+}
+
+table .titre-sub-tab td {
+	text-align: center;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.valeur-tableau {
+	margin-left: 8px;
+}
+
+#centrer{
+	text-align: center;
+}
+
+#justifier{
+	text-align: justify;
+}
+
+.tableau-valeurs {
+	width: 100%;
+	background-color: white;
+	margin-bottom: 10px;
+	border-left: 1px solid #77C7CF;
+	border-right: 1px solid #77C7CF;
+	border-bottom: 1px solid #77C7CF;
+}
+
+table.view .requete-name {
+	text-align: center;
+	font-weight: bold;
+	width: 12%;
+
+}
+table.view .corps {
+	width: 80%;
+}
+
+.view .resultat {
+	justify-content: space-around;
+}
+
+.resultat .corps tr{
+	border-bottom: 1px solid #77C7CF;
+}
+
+
+.resultat .corps tr:last-child, .resultat .corps tr:first-child{
+	border-bottom: none;
+}
+
+table.view tr.titre-resultat td {
+	text-align: center;
+}
+
+table.view tr.titre-resultat td:first-child {
+	width: 15%;
+}
+
+table.view tr.titre-resultat td:last-child {
+	width: 80%;
+}
+
+.title-module {
+	font-size: 26px;
+	font-weight: 300;
+	color: #534d64;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+
+table.view .fatal {
+	color: #f10b0b;
+}
+
+table.view .warning {
+	color: #f2540c;
+}
+
+table.view .ok {
+	color: #0364a0;
+}
+
+table.view .integrites-name {
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+.button-req {
+	vertical-align: middle;
+	background-color: #17879a;
+	border-radius: 6px;
+	border: none;
+	color: white;
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-top: 6px;
+	padding-bottom: 4px;
+}
+
+.button-req img {
+	margin-top: -7px;
+	width: 6px;
+	height: 6px;
+}
+
+.button-req:hover {
+	background-color: #77c7cf;
+}
+
+.button-req:focus {
+	outline-style:none;
+}
+
+#button-req-launch {
+	background-color: #17879a;
+}
+
+#button-req-launch:hover {
+	background-color: #77c7cf;
+}
+
+.fatal, .warning, .ok {
+	margin-right: 10px;
+}
+
+.tableau-resultat {
+	margin-top: 5px;
+	margin-bottom: 20px;
+	margin-left: 6%;
+}
+
+table.view .requete-sans-resultat {
+	margin-left: 32px;
+	font-size: 13px;
+}
+
+table.view #lancement-req-title {
+	width: 100%;
+}
+
+.conseil-line {
+	width: 100%;
+}
+
+.conseil-line div {
+	display: inline-block;
+}
+
+.conseil-line .titre-conseil {
+	margin-left: 6%;
+}
+.conseil-line .contenu-conseil {
+	
+}

@@ -1,0 +1,162 @@
+<?php
+/**
+ * @license GNU General Public License < https://www.gnu.org/licenses/ >
+ * @author  Lanteas™ < contact@lanteas.com >
+ * @package OpenSub™
+*/
+
+$dictionary['OPS_tranche'] = array(
+    'table' => 'ops_tranche',
+    'audited' => true,
+    'inline_edit' => true,
+    'duplicate_merge' => true,
+    'fields' => array (
+  'name' => 
+  array (
+    'name' => 'name',
+    'vname' => 'LBL_NAME',
+    'type' => 'name',
+    'link' => true,
+    'dbType' => 'varchar',
+    'len' => '255',
+    'unified_search' => false,
+    'full_text_search' => 
+    array (
+      'boost' => 3,
+    ),
+    'required' => true,
+    'importable' => 'required',
+    'duplicate_merge' => 'disabled',
+    'merge_filter' => 'disabled',
+    'massupdate' => 0,
+    'no_default' => false,
+    'comments' => '',
+    'help' => '',
+    'duplicate_merge_dom_value' => '0',
+    'audited' => true,
+    'inline_edit' => true,
+    'reportable' => true,
+    'size' => '20',
+  ),
+  'currency_id' => 
+  array (
+    'required' => false,
+    'name' => 'currency_id',
+    'vname' => 'LBL_CURRENCY',
+    'type' => 'currency_id',
+    'massupdate' => 0,
+    'no_default' => false,
+    'comments' => '',
+    'help' => '',
+    'importable' => 'true',
+    'duplicate_merge' => 'disabled',
+    'duplicate_merge_dom_value' => 0,
+    'audited' => true,
+    'inline_edit' => true,
+    'reportable' => true,
+    'unified_search' => false,
+    'merge_filter' => 'disabled',
+    'len' => 36,
+    'size' => '20',
+    'dbType' => 'id',
+    'studio' => 'visible',
+    'function' => 
+    array (
+      'name' => 'getCurrencyDropDown',
+      'returns' => 'html',
+    ),
+  ),
+  'code_programme' => 
+  array (
+    'required' => false,
+    'name' => 'code_programme',
+    'vname' => 'LBL_CODE_PROGRAMME',
+    'type' => 'varchar',
+    'massupdate' => 0,
+    'no_default' => false,
+    'comments' => '',
+    'help' => '',
+    'importable' => 'true',
+    'duplicate_merge' => 'disabled',
+    'duplicate_merge_dom_value' => '0',
+    'audited' => true,
+    'inline_edit' => true,
+    'reportable' => true,
+    'unified_search' => false,
+    'merge_filter' => 'disabled',
+    'len' => '255',
+    'size' => '20',
+  ),
+  'programme' => 
+  array (
+    'required' => false,
+    'name' => 'programme',
+    'vname' => 'LBL_PROGRAMME',
+    'type' => 'varchar',
+    'massupdate' => 0,
+    'no_default' => false,
+    'comments' => '',
+    'help' => '',
+    'importable' => 'true',
+    'duplicate_merge' => 'disabled',
+    'duplicate_merge_dom_value' => '0',
+    'audited' => true,
+    'inline_edit' => true,
+    'reportable' => true,
+    'unified_search' => false,
+    'merge_filter' => 'disabled',
+    'len' => '255',
+    'size' => '20',
+  ),
+  'code_operation' => 
+  array (
+    'required' => false,
+    'name' => 'code_operation',
+    'vname' => 'LBL_CODE_OPERATION',
+    'type' => 'varchar',
+    'massupdate' => 0,
+    'no_default' => false,
+    'comments' => '',
+    'help' => '',
+    'importable' => 'true',
+    'duplicate_merge' => 'disabled',
+    'duplicate_merge_dom_value' => '0',
+    'audited' => true,
+    'inline_edit' => true,
+    'reportable' => true,
+    'unified_search' => false,
+    'merge_filter' => 'disabled',
+    'len' => '255',
+    'size' => '20',
+  ),
+  'operation' => 
+  array (
+    'required' => false,
+    'name' => 'operation',
+    'vname' => 'LBL_OPERATION',
+    'type' => 'varchar',
+    'massupdate' => 0,
+    'no_default' => false,
+    'comments' => '',
+    'help' => '',
+    'importable' => 'true',
+    'duplicate_merge' => 'disabled',
+    'duplicate_merge_dom_value' => '0',
+    'audited' => true,
+    'inline_edit' => true,
+    'reportable' => true,
+    'unified_search' => false,
+    'merge_filter' => 'disabled',
+    'len' => '255',
+    'size' => '20',
+  ),
+),
+    'relationships' => array (
+),
+    'optimistic_locking' => true,
+    'unified_search' => true,
+);
+if (!class_exists('VardefManager')) {
+        require_once('include/SugarObjects/VardefManager.php');
+}
+VardefManager::createVardef('OPS_tranche', 'OPS_tranche', array('basic','assignable','security_groups'));
